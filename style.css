@@ -12,12 +12,16 @@ body{
 .orenge-color{
 color: #FFAD5A;
 }
+.orenge-red{
+    color: #FF5959;
+}
 .margin-top{
     margin-top: 150px;
 }
 .title-coler{
     color: #333333;
 }
+
 .big-title-font{
 /* font-size: 40px; */
 font-family: 'Yeseva One', cursive;
@@ -30,10 +34,10 @@ line-height: 70px;
 /*///////////////// top header style////////////////// */
 .flex-section{
     display: flex;
-    height: 80vh;
-   
-   
-   
+     
+}
+.top-heading{
+    height: 600px;
 }
 .left-pading{
     padding-left: 12%;
@@ -79,17 +83,22 @@ margin-bottom: 40px;
 }
 
 /* ///////////////sub heading || 2nd section/////////////////*/
+.my-mission {
+    margin-top: 50px;
+    height: 600px;
+}
 .sub-header{
     display: flex;
     justify-content: center;
     color: #13103A;
     font-size: 2rem;
     font-weight: 700;
+    margin-bottom: 30px;
 }
 .box-container{
     display: flex;
     justify-content: space-evenly;
-    margin-bottom: 150px;
+    margin-bottom: 250px;
 }
 .box{
     width: 25%;
@@ -113,6 +122,9 @@ margin-bottom: 40px;
     background: #FFF4D6;
 }
 /* ///////////////////develop without limits////////////////////// */
+.developer-section{
+ height: 500px;
+}
 .mini-sub-heading{
     font-family: 'Poppins', sans-serif;
     font-size: 30px;
@@ -121,7 +133,8 @@ margin-bottom: 40px;
    
     
 }
-#develop-section-right-wight{
+
+.section-wight-fix{
     width: 70%;
     padding: 2% 5% 5% 0;
 }
@@ -131,4 +144,63 @@ margin-bottom: 40px;
     background-size: 200px;
     background-position-x: 50px;
     background-position-y: 60px;
+}
+/*///////////////// globle community///////////////// */
+.globle-comunity-section{
+    height: 500px;
+   }
+.globle-comunity-img{
+    padding-left: 50px;
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 200px;
+    /* background-position: right; */
+    background-position-x: 97%;
+    background-position-y: 95%;
+
+}
+/* //////////////////speacile task => my latest project/////////// */
+.my-latest-project{
+    padding: 20px 70px;
+    height: 400px;
+
+}
+.project-img{
+    width: 30%;
+    margin: 2%;
+    background: rgba(248, 222, 222, 0.685);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 26px;
+    padding: 10px;
+
+}
+.project-img img{
+    width: 90%;
+}
+/* ///////////////////footer section//////////////// */
+footer{
+    height: 20vh;
+    background: #0B0D17;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-section{
+    text-align: center;
+
+}
+footer h3{
+    
+    color: #FFFFFF;
+   font-weight: normal;
+    font-family: 'Lobster', cursive;
+    font-size: 34px;
+    padding-bottom: 30px;
+}
+footer p{
+    font-size: 14px;
+    color: #D9DBE1;
 }
