@@ -1,0 +1,134 @@
+/* ////////////defolt style/////////////  */
+
+*{
+
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/* //////////reusble style/////////////// */
+.orenge-color{
+color: #FFAD5A;
+}
+.margin-top{
+    margin-top: 150px;
+}
+.title-coler{
+    color: #333333;
+}
+.big-title-font{
+/* font-size: 40px; */
+font-family: 'Yeseva One', cursive;
+font-style: normal;
+font-weight: normal;
+font-size: 38px;
+line-height: 70px;
+
+}
+/*///////////////// top header style////////////////// */
+.flex-section{
+    display: flex;
+    height: 80vh;
+   
+   
+   
+}
+.left-pading{
+    padding-left: 12%;
+}
+.half-wight{
+
+    width: 48%;
+    
+    /* background: rgb(197, 71, 71);
+    border:5px solid black; */
+  
+   
+}
+
+.half-wight img{
+    width: 80%;
+}
+.title-container{
+    padding: 0 20px;
+    border-left: 4px solid #FF5959;
+    margin-bottom: 1rem;
+    margin-bottom: 30px;
+    
+}
+.text-container{
+    color: #3E3E3E;
+    font-size: 18px;
+    line-height: 28px;
+   
+}
+.btn{
+    text-decoration: none;
+    color: white;
+    background: #FF5959;
+    padding: 12px 30px;
+    border-radius: 5px;
+    
+}
+.btn-container {
+margin-top: 40px;
+margin-bottom: 40px;
+    
+}
+
+/* ///////////////sub heading || 2nd section/////////////////*/
+.sub-header{
+    display: flex;
+    justify-content: center;
+    color: #13103A;
+    font-size: 2rem;
+    font-weight: 700;
+}
+.box-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 150px;
+}
+.box{
+    width: 25%;
+    background: rgb(138, 71, 71);
+    border: none;
+    border-radius: 26px;
+    padding: 30px 25px;
+    color: #424242;
+
+}
+.box img{
+    width: 50%;
+}
+#box-1st{
+    background: rgba(79, 157, 166, 0.1);
+}
+#box-2nd{
+    background: rgba(255, 89, 89, 0.1);
+}
+#box-3rd{
+    background: #FFF4D6;
+}
+/* ///////////////////develop without limits////////////////////// */
+.mini-sub-heading{
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 10px;
+   
+    
+}
+#develop-section-right-wight{
+    width: 70%;
+    padding: 2% 5% 5% 0;
+}
+.develop-section-bg-img{
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 200px;
+    background-position-x: 50px;
+    background-position-y: 60px;
+}
